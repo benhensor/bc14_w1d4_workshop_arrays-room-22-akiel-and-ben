@@ -17,3 +17,29 @@ const friends = [
 
 console.log(friends[2].skill);
 
+let options = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
+console.log(options[8]);
+
+console.log(options[3]);
+console.log(options[11]);
+
+let englishNumbers = ["one", "two", "three", "four", "five"];
+let i=0
+while (i != englishNumbers.length){
+console.log(englishNumbers[i]);
+i++;
+}
